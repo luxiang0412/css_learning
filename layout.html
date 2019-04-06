@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        padding: 20px;
+        font: 1em Helvetica Neue, Helvetica, Arial, sans-serif;
+    }
+    p{
+        margin: 0 0 1em 0;
+    }
+    .container{
+        width: 500px;
+        padding: 10px;
+        border: 5px solid;
+        border-radius: 1.5em;
+    }
+    .item{
+        width: 100px;
+        height: 100px;
+        float: left;
+        margin: 0 20px 20px 0;
+        background-color: red;
+    }
+    .container::after{
+        content: "";
+        display: none;
+        clear: both;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="item">
+        </div>
+        <p>Pea horseradish azuki bean lettuce avocado asparagus okra. Kohlrabi radish okra azuki bean corn fava bean mustard tigernut jícama green bean celtuce. </p>
+        <p>Grape silver beet  collard greens avocado quandong fennel gumbo black-eyed pea watercress potato tigernut corn groundnut. Chickweed okra pea winter purslane coriander yarrow sweet pepper radish garlic brussels sprout groundnut summer purslane earthnut pea tomato spring onion azuki bean gourd. Gumbo kakadu plum komatsuna black-eyed pea green bean zucchini gourd winter purslane silver beet rock melon radish asparagus spinach.</p>
+    </div>
+</body>
+</html>
